@@ -4,7 +4,7 @@ $mobile-width: 480px;
 
 .container {
   max-width: $desktop-width;
-  max-height: 10;
+  min-height: 850px !important;
   margin: 0 auto;
   padding: 0 15px;
   display: flex;
