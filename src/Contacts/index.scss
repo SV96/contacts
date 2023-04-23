@@ -1,0 +1,64 @@
+.contactsHeader {
+  display: flex;
+  gap: 1rem;
+}
+
+.contactsHeader img {
+  height: 35px;
+}
+
+.contactsHeaderContent {
+  display: flex;
+  flex-direction: column;
+}
+
+.contactSearch {
+  display: flex;
+  margin-top: 25px;
+  ;
+  gap: 2rem;
+}
+
+.custom-text-field {
+  .MuiOutlinedInput-root {
+    border-radius: 2rem;
+    height: 2.3rem;
+  }
+  input {
+    padding-top: 0.4rem;
+    text-align: center;
+  }
+}
+
+.custom-button {
+  &.MuiButton-root {
+    background-color: rgb(228, 169, 114);
+    color: white;
+
+    &:hover {
+      background-color: navy;
+    }
+  }
+}
+.contactTable {
+  margin-top: 25px;
+  ;
+}
+
+.MuiTableHead-root {
+  background-color: #f0f0f0; 
+  width: 100%;
+}
+
+.contactRowSecond {
+  display: flex;
+  gap: 1.2rem;
+}
+
+.contactPadding {
+  padding-left: 2rem
+}
+
+.custom-button-mobile {
+  font-size: 11px !important;
+}

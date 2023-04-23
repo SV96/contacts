@@ -1,0 +1,27 @@
+.paperContact {
+    display: flex;
+    gap: 1.2rem;
+    flex-direction: column;
+    padding: 20px;
+    margin-left: 20px;
+    background-color: #f0f0f0 !important; 
+}
+.paperHeader {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    line-height: 0.001
+}
+.paperDetails {
+    display: flex;
+
+}
+.paperLabel {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.paperValues {
+    margin-left: 25px;
+}
